@@ -24,15 +24,15 @@
 - Async contracts
   - Callbacks: 🖐️ used
   - Callback-last-error-first: 🖐️ used
-  - Thenable
+  - Thenable: 🖐️ used
   - Promise: 🖐️ used
   - Async/await: 🖐️ used
   - Future
   - Deferred
-  - Sync generator
-  - Async Generator
-  - Async Iterator
-  - Event
+  - Sync generator: 🖐️ used
+  - Async Generator: 🖐️ used
+  - Async Iterator: 🖐️ used
+  - Event: 🖐️ used
   - Coroutine
   - Goroutine
   - Signal: 👂 heard
@@ -41,9 +41,9 @@
   - Middleware: 🎓 known
   - Locks
 - Async adapters and utils
-  - callbackify
-  - promisify
-  - asyncify
+  - callbackify: 🖐️ used
+  - promisify: 🖐️ used
+  - asyncify: 🖐️ used
   - callbacks compose: 👂 heard
   - async compose: 👂 heard
 - Async abstractions interfaces
@@ -52,16 +52,16 @@
   - Readable: 👂 heard
   - Writable: 👂 heard
   - Transform: 👂 heard
-  - Async Pool
-  - Async Queue
-  - Async Collector
+  - Async Pool: 🖐️ used
+  - Async Queue: 🖐️ used
+  - Async Collector: 🖐️ used
   - Semaphore
   - Mutex
   - Spin Lock
 - JavaScript & Node.js specific
   - Timers: 🖐️ used
   - setImmediate: 🖐️ used
-  - nextTick
+  - nextTick: 🖐️ used
   - AbortController: 👂 heard
   - AbortSignal: 👂 heard
   - Promise unhandled rejection: 🖐️ used
@@ -71,23 +71,23 @@
   - Atomics
   - High resolution clock
   - Callback hell: 🖐️ used
-  - Promise hell
+  - Promise hell: 🖐️ used
   - ref() and unref()
   - Error handling in async code: 🖐️ used
   - Better stack traces with return await
   - JSON: streaming serialization: 👂 heard
-  - promisify
-  - callbackify
+  - promisify: 🖐️ used
+  - callbackify : 🖐️ used
   - AsyncLocalStorage: 🖐️ used
   - AsyncResource
 - Techniques
-  - async.js library
-  - RxJS library
+  - async.js library: 🖐️ used
+  - RxJS library: 🖐️ used
   - Async composition
-  - Promise.all
+  - Promise.all: 🖐️ used
   - Promise.allSettled
-  - Promise.race
-  - Promise.any
+  - Promise.race: 🖐️ used
+  - Promise.any: 🖐️ used
   - Web Locks API
   - IPC
   - Channel API
